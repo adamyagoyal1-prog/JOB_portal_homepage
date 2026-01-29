@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+h1{
+    color: blue;
+    margin: 20px;
+}
+
+/* NAVIGATION – STICKY */
+center{
+    position: sticky;     /* sticky works relative to parent */
+    top: 0;            /* must specify top */
+    background-color: #f4f1f1;
+    padding: 10px ;
+    border: 1px solid black;
+           /* so it stays above content when scrolling */
+}
+
+/* FORM – RELATIVE */
+form{
+    position: relative; 
+      display: flex;
+    flex-direction: column;
+    gap: 10px;  /* stays in normal flow */
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    width: 300px;
+           /* auto height for content */
+}
