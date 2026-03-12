@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background-color: #80135d;
+    text-align: center;
+}
+
+
+
+
+input{
+    padding: 8px;
+    margin: 5px;
+    width: 70%;
+}
+
+
+select{
+    padding: 8px;
+    margin: 5px;
+}
+
+/* Buttons */
+button{
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
